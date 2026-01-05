@@ -20,9 +20,11 @@ const App = () => {
     },
   ]);
 
+  // Filters
   const [titleFilter, setTitleFilter] = useState("");
   const [rateFilter, setRateFilter] = useState(0);
 
+  // New Movie State
   const [newMovie, setNewMovie] = useState({
     title: "",
     description: "",
@@ -30,11 +32,13 @@ const App = () => {
     rating: 0,
   });
 
+  // Add Movie Handler
   const handleAddMovie = () => {
     setMovies([...movies, newMovie]);
     setNewMovie({ title: "", description: "", posterURL: "", rating: 0 });
   };
 
+  // Filtered Movies
   const filteredMovies = movies.filter(
     (movie) =>
       movie.title.toLowerCase().includes(titleFilter.toLowerCase()) &&
