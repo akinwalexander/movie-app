@@ -8,14 +8,14 @@ const App = () => {
       title: "Inception",
       description: "A mind-bending thriller by Christopher Nolan.",
       posterURL:
-        "https://m.media-amazon.com/images/I/51s+GmEwGUL._AC_.jpg",
+        "https://m.media-amazon.com/images/S/pv-target-images/cc72ff2193c0f7a85322aee988d6fe1ae2cd9f8800b6ff6e8462790fe2aacaf3.jpg",
       rating: 5,
     },
     {
       title: "Interstellar",
       description: "A journey through space and time.",
       posterURL:
-        "https://m.media-amazon.com/images/I/71n58w9p5EL._AC_SL1024_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11DtS2HHLba5FaL0Pp7FhOrxi2huOesValmjDLYr-HgS_lI7xLNosgToP1n5kTPm1JDQpLe2SxoCIljKcWK2uCrgVDFCNIpl1dHY7W0Q&s=10",
       rating: 4,
     },
   ]);
